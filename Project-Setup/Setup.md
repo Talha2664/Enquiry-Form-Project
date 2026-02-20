@@ -1,22 +1,24 @@
+```md
+# Front-End
 ```
-             Front-End
-```
-1-Create Vite Project
-```
+```md
+# 1-Create Vite Project
+
 npm create vite
 cd foldername
 npm install
 ```
 
-2-Install Tailwind
-```
-Step 1:
+```md 
+#2-Install Tailwind
+
+#Step 1:
 
 npm install tailwindcss @tailwindcss/vite
 
-Step 2:
+#Step 2:
 
-In => vite.config.js
+#In => vite.config.js
 
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
@@ -26,19 +28,20 @@ export default defineConfig({
   ],
 })
 
-Step 3:
+#Step 3:
 
 In => index.css
 
 @import "tailwindcss";
 ```
-3-Import Flowbite
-```
-Step 1:
+```md
+# 3-Import Flowbite
+
+# Step 1:
 
 npx flowbite-react@latest init
 
-Step 2:
+# Step 2:
 
 npm install flowbite-react@latest flowbite@latest
 ```
