@@ -48,3 +48,26 @@ app.use(cors());
 * Removes browser restriction for cross-origin requests
 * Makes API communication possible
 ```
+
+```md
+# What is Toastify
+
+Ek library hai: react-toastify
+
+Ye small popup messages (toast notifications) screen ke corner me dikhata hai
+
+# Install karna
+
+npm install react-toastify
+
+# Import this in file
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+# Jab bhi user ko feedback dikhana ho → toast use karo
+
+  .then(() => toast.success("Enquiry submitted successfully!"))
+  .catch(() => toast.error("Failed to submit enquiry"));
+```
+
