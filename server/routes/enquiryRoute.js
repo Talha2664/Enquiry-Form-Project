@@ -12,7 +12,7 @@ const enquiryRoutes = express.Router();
 enquiryRoutes.post("/insert-enquiry", insertEnquiry);
 
 /* READ */
-enquiryRoutes.get("/enquiries", getAllEnquiries);
+enquiryRoutes.get("/get-enquiries", getAllEnquiries);
 
 /* UPDATE */
 enquiryRoutes.put("/update-enquiry/:id", updateEnquiry);
